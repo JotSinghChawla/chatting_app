@@ -32,8 +32,8 @@ function App() {
         <SignOut />
       </header>
       <section>
-        {/* {console.log(user)} */}
         { user ? <Chatroom /> : <SignIn /> }
+        {/* {console.log(user)} */}
       </section>
     </div>
   );
