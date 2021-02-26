@@ -6,7 +6,7 @@ import 'firebase/firestore';
 import 'firebase/auth';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
-import test from './demo.jpg' 
+import userPicture from './demo.jpg' 
 
 firebase.initializeApp({
   apiKey: "AIzaSyAawO7YRgRL45SmK8MjKtK4u65ONAYV0M4",
@@ -107,7 +107,7 @@ function ChatMessage({ message }) {
 
   return ( 
     <div className={`message ${messageType} `}>
-      <img src={message.photoURL ? message.photoURL : test } alt="profile" />
+      <img src={message.photoURL ? message.photoURL : userPicture } alt="profile" />
       <p>{text}</p>
     </div>
   )
