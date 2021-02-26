@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/chatting_app/static/css/main.67c3c292.chunk.css",
+    "main.js": "/chatting_app/static/js/main.41574839.chunk.js",
+    "main.js.map": "/chatting_app/static/js/main.41574839.chunk.js.map",
+    "runtime-main.js": "/chatting_app/static/js/runtime-main.02413fa4.js",
+    "runtime-main.js.map": "/chatting_app/static/js/runtime-main.02413fa4.js.map",
+    "static/js/2.aa6dcb6c.chunk.js": "/chatting_app/static/js/2.aa6dcb6c.chunk.js",
+    "static/js/2.aa6dcb6c.chunk.js.map": "/chatting_app/static/js/2.aa6dcb6c.chunk.js.map",
+    "static/js/3.07d88474.chunk.js": "/chatting_app/static/js/3.07d88474.chunk.js",
+    "static/js/3.07d88474.chunk.js.map": "/chatting_app/static/js/3.07d88474.chunk.js.map",
+    "index.html": "/chatting_app/index.html",
+    "static/css/main.67c3c292.chunk.css.map": "/chatting_app/static/css/main.67c3c292.chunk.css.map",
+    "static/js/2.aa6dcb6c.chunk.js.LICENSE.txt": "/chatting_app/static/js/2.aa6dcb6c.chunk.js.LICENSE.txt",
+    "static/media/demo.b8a96309.jpg": "/chatting_app/static/media/demo.b8a96309.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02413fa4.js",
+    "static/js/2.aa6dcb6c.chunk.js",
+    "static/css/main.67c3c292.chunk.css",
+    "static/js/main.41574839.chunk.js"
+  ]
+}
