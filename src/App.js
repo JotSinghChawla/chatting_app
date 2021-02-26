@@ -1,22 +1,14 @@
 import React, { useState, useRef } from 'react';
 import './App.css';
-
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
+import config from './firebaseConfig'
 import userPicture from './demo.jpg' 
 
-firebase.initializeApp({
-  apiKey: "AIzaSyAawO7YRgRL45SmK8MjKtK4u65ONAYV0M4",
-  authDomain: "chatting-app-12990.firebaseapp.com",
-  projectId: "chatting-app-12990",
-  storageBucket: "chatting-app-12990.appspot.com",
-  messagingSenderId: "112567462662",
-  appId: "1:112567462662:web:cb70df137e23e02009cc87",
-  measurementId: "G-9PLQVRNLFZ"
-})
+firebase.initializeApp(config)
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
@@ -107,7 +99,7 @@ function ChatMessage({ message }) {
 
   return ( 
     <div className={`message ${messageType} `}>
-      <img src={message.photoURL ? message.photoURL : userPicture } alt="profile" />
+      <img src={message.photoURL ? photoURL : userPicture } alt="profile" />
       <p>{text}</p>
     </div>
   )
