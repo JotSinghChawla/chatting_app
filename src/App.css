@@ -71,7 +71,6 @@ form {
 }
 
 form button {
-  width: 20%;
   background-color: rgb(56, 56, 143);
 }
 
@@ -84,7 +83,7 @@ input {
   color: white;
   outline: none;
   border: none;
-  padding: 0 50px;
+  padding: 0 4vw;
 }
 
 button {
