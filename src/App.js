@@ -25,7 +25,7 @@ function App() {
       </header>
       <section>
         { user ? <Chatroom /> : <SignIn /> }
-        {/* {console.log(user)} */}
+        {console.log(user)}
       </section>
     </div>
   );
